@@ -1,16 +1,36 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "email": "olivier@mail.com",
+      "password": "$2a$10$1etkpwSrGCWeY3uGvFJZGexqWfWJcj77DCf9xkan92LeoKYlT6Vnu",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 1
+    },
+    {
+      "email": "olivier@interia.pl",
+      "password": "$2a$10$Z26/IepdEbbFZIRiAljbdehHQ2dFU98D6gPAZFFfxaBJ06f/CNATy",
+      "firstname": "Olivier",
+      "lastname": "Monge",
+      "age": 32,
+      "id": 2
+    },
+    {
+      "email": "asd@gmgail.com",
+      "password": "$2a$10$Sk2rI2PAsidTL2PYyvH74u6BrNEjwt.yO/RsPyUAO7zrSocD1i4QS",
+      "id": 3
+    },
+    {
+      "email": "asd@fasfdasfa.pl",
+      "password": "$2a$10$4WyO2wSo5cK9me2lYuUVeeoUpZ.j1Dda21mKlNObF0ormkje1mzgO",
+      "id": 4
+    },
+    {
+      "email": "asd@gmail.pl",
+      "password": "$2a$10$H6ZUDNKcAbJeHsXI3c52AefwVuikTfiEZbVWK.i9a5WHXhJ1SMzkO",
+      "id": 5
     }
   ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+  "coffees": []
 }

@@ -1,10 +1,20 @@
-const jsonServer = require('json-server');
-const server = jsonServer.create();
-const router = jsonServer.router('db.json');
-const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 3000;
+// const jsonServer = require('json-server')
+// const auth = require('json-server-auth')
+// const app = jsonServer.create()
+// const router = jsonServer.router('db.json')
 
-server.use(middlewares);
-server.use(router);
+// // /!\ Bind the router db to the app
+// app.db = router.db
 
-server.listen(port);
+// app.use(function(req, res, next) {
+//     res.header("Access-Control-Allow-Origin", "*");
+//     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+//     next();
+//   });
+  
+
+// // You must apply the auth middleware before the router
+// app.use(router)
+// app.use(auth)
+// app.listen(process.env.PORT || 3000)
+
