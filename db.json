@@ -1,5 +1,9 @@
 {
-  "coffees":[
-    {}
+  "coffees": [
+    {
+      "roastery": "a",
+      "name": "a",
+      "id": 1
+    }
   ]
 }
